@@ -8,7 +8,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { auth } from "../firebase";
 import { useStateValue } from "../StateProvider";
-// import { Payment } from "@material-ui/icons";
+const dotenv = require("dotenv").config();
 
 function App() {
   const [{}, dispatch] = useStateValue();
