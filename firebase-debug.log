@@ -1,0 +1,90 @@
+[debug] [2021-02-23T09:39:53.598Z] ----------------------------------------------------------------------
+[debug] [2021-02-23T09:39:53.620Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mitta\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-02-23T09:39:53.620Z] CLI Version:   9.5.0
+[debug] [2021-02-23T09:39:53.621Z] Platform:      win32
+[debug] [2021-02-23T09:39:53.621Z] Node Version:  v14.15.2
+[debug] [2021-02-23T09:39:53.759Z] Time:          Tue Feb 23 2021 15:09:53 GMT+0530 (India Standard Time)
+[debug] [2021-02-23T09:39:53.760Z] ----------------------------------------------------------------------
+[debug] [2021-02-23T09:39:53.760Z] 
+[debug] [2021-02-23T09:39:53.814Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-23T09:39:53.815Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\mitta\Desktop\Amazon-Clone\amazon-clone-app
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using clone-demo-app-5c20c. 
+[debug] [2021-02-23T09:40:14.791Z] > refreshing access token with scopes: []
+[debug] [2021-02-23T09:40:14.792Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-02-23T09:40:16.411Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Tue, 23 Feb 2021 09:40:15 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-02-23T09:40:16.486Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-demo-app-5c20c [none]
+[debug] [2021-02-23T09:40:17.221Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-demo-app-5c20c 200
+[debug] [2021-02-23T09:40:17.221Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-demo-app-5c20c {"projectId":"clone-demo-app-5c20c","projectNumber":"588453625892","displayName":"amazon-clone-demo-app","name":"projects/clone-demo-app-5c20c","resources":{"hostingSite":"clone-demo-app-5c20c","realtimeDatabaseInstance":"clone-demo-app-5c20c-default-rtdb","storageBucket":"clone-demo-app-5c20c.appspot.com","locationId":"asia-south1"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-02-23T09:41:32.832Z] ----------------------------------------------------------------------
+[debug] [2021-02-23T09:41:32.835Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mitta\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-02-23T09:41:32.836Z] CLI Version:   9.5.0
+[debug] [2021-02-23T09:41:32.836Z] Platform:      win32
+[debug] [2021-02-23T09:41:32.836Z] Node Version:  v14.15.2
+[debug] [2021-02-23T09:41:32.837Z] Time:          Tue Feb 23 2021 15:11:32 GMT+0530 (India Standard Time)
+[debug] [2021-02-23T09:41:32.838Z] ----------------------------------------------------------------------
+[debug] [2021-02-23T09:41:32.838Z] 
+[debug] [2021-02-23T09:41:32.912Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-23T09:41:32.912Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\mitta\Desktop\Amazon-Clone\amazon-clone-app
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using clone-demo-app-5c20c. 
+[debug] [2021-02-23T09:41:46.240Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-demo-app-5c20c [none]
+[debug] [2021-02-23T09:41:46.791Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-demo-app-5c20c 200
+[debug] [2021-02-23T09:41:46.791Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-demo-app-5c20c {"projectId":"clone-demo-app-5c20c","projectNumber":"588453625892","displayName":"amazon-clone-demo-app","name":"projects/clone-demo-app-5c20c","resources":{"hostingSite":"clone-demo-app-5c20c","realtimeDatabaseInstance":"clone-demo-app-5c20c-default-rtdb","storageBucket":"clone-demo-app-5c20c.appspot.com","locationId":"asia-south1"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
